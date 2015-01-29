@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="wrap_content"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:paddingBottom="10dp"
+android:paddingTop="10dp">
+
+<LinearLayout 
+    android:layout_height="wrap_content"
+	android:layout_width="match_parent"
+	android:orientation="horizontal"
+	android:layout_weight="100" >    
+
+ <TextView
+     android:id="@+id/TextView01"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="40"
+     android:gravity="left"
+     android:paddingLeft="10dp"
+     android:paddingRight="10dp"
+     android:scrollHorizontally="true"
+     android:singleLine="true"
+     android:text="Name"
+     android:textColor="#d08021"
+     android:textSize="18sp"
+     android:textStyle="bold" />
+
+ <TextView
+     android:id="@+id/TextView02"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="60"
+     android:scrollHorizontally="true"
+     android:gravity="left"
+     android:singleLine="true"
+     android:text="Cabin"
+     android:textColor="#7f0000"
+     android:textSize="18sp"
+     android:textStyle="bold"
+     android:paddingLeft="5dp"
+     android:paddingRight="10dp" />
+ </LinearLayout>
+
+ <TextView
+     android:id="@+id/TextView03"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:paddingTop="3dp"
+     android:layout_gravity="center_horizontal"
+     android:gravity="left"
+     android:scrollHorizontally="true"
+     android:singleLine="true"
+     android:text="Email"
+     android:textColor="#151515"
+     android:textSize="15sp" />
+
+</LinearLayout>

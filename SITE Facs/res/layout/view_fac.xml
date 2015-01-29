@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2" >
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:background="#1584B3"
+        android:textColor="#FFFFFF"
+        android:text="ADD TO MY FACS"
+        android:textSize="15sp"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:paddingBottom="5dp"
+        android:text="Fac Name"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDesig"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:paddingBottom="35dp"
+        android:paddingTop="3dp"
+        android:text="SJT XXX AYY"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvLoc"
+        android:layout_centerHorizontal="true"
+        android:text="email id"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvDesig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvName"
+		android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Professor"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
